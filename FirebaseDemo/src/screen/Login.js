@@ -16,7 +16,7 @@ import auth from '@react-native-firebase/auth';
 
 const Login = ({navigation}) => {
   const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('+918154097188');
+  const [phone, setPhone] = useState('');
   const [password, setPassword] = useState('abc@123');
   const [otp, setOtp] = useState();
   const [isEnabled, setIsEnabled] = useState(false);
